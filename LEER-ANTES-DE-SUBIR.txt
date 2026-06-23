@@ -1,0 +1,17 @@
+CHEF OSCAR - VERSIÓN BACKROOM SEGURO VISUAL
+
+Cambios de esta versión:
+- El panel de Gestión del menú ya no queda visible antes de ingresar el PIN.
+- Se ocultó la información interna del backroom hasta iniciar sesión.
+- Se eliminó de la pantalla pública la indicación del PIN inicial.
+- Se agregó regla CSS de seguridad visual para que [hidden] siempre se respete.
+- Se agregó control adicional por JavaScript para forzar display:none hasta validar el PIN.
+
+PIN configurado actualmente: 1234
+Para cambiarlo, editar assets/script.js y buscar la variable BACKROOM_PIN.
+
+IMPORTANTE:
+Esta sigue siendo una web estática. El PIN sirve como bloqueo visual básico.
+Para seguridad real, usuarios privados y cambios visibles para todos los clientes en internet, se necesita backend/base de datos/autenticación.
+
+Después de subir a GitHub/Vercel, recargar con Ctrl + F5.
