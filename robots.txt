@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /backroom.html
+Allow: /
